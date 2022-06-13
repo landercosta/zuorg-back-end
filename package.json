@@ -1,0 +1,27 @@
+{
+  "name": "zuorg-back-end",
+  "version": "1.0.0",
+  "description": "Personal task list made to manage tasks around a task queue rather than time.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/landercosta/zuorg-back-end.git"
+  },
+  "author": "Lander Costa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/landercosta/zuorg-back-end/issues"
+  },
+  "homepage": "https://github.com/landercosta/zuorg-back-end#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "sqlite3": "^5.0.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
